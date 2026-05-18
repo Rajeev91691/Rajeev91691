@@ -42,21 +42,6 @@ interests:
 
 ---
 
-## 🔥 GitHub Stats
-
-<div align="center">
-  <table>
-    <tr>
-      <td><img src="https://github-readme-stats.vercel.app/api?username=Rajeev91691&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats"/></td>
-      <td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rajeev91691&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/></td>
-    </tr>
-  </table>
-  
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rajeev91691&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
-</div>
-
----
-
 ## 💻 Tech Stack
 
 ### Languages
@@ -113,14 +98,6 @@ interests:
 
 ---
 
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Rajeev91691&theme=tokyonight&no-frame=true" alt="GitHub Trophies"/>
-</div>
-
----
-
 ## 🤝 Let's Connect
 
 <div align="center">
@@ -138,15 +115,5 @@ interests:
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Rajeev91691&style=for-the-badge&color=blueviolet" alt="Profile Views"/>
-  
-  <br>
-  <br>
-  
   <i>"Learning, building, and shipping AI-powered solutions 🚀"</i>
-  
-  <br>
-  <br>
-  
-  ![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=Rajeev91691.Rajeev91691)
 </div>
