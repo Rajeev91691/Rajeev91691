@@ -1,9 +1,9 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" height="30px"/>
 
-  # 👋 Hi, I'm Rajeev Nandan Damarla
+  # 👋 Hi, I'm Rajeev
 
-  **Building AI-Powered Solutions | B.Tech CSE @ GITAM | GPA: 9.18/10**
+  **Building AI-Powered Solutions | B.Tech CSE @ GITAM | GPA: 9.73/10**
 
   [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-blue?style=for-the-badge&logo=netlify)](https://rajeevnandanportfolio.netlify.app)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rajeev-nandan-d-59b367293/)
