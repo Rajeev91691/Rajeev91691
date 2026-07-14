@@ -27,9 +27,9 @@
 
 ## 🧠 About Me
 
-\\\ash
+`ash
 rajeev@antigravity-os:~$ neofetch --theme tokyonight
-\\\
+`
 
 `	ext
        .---.          rajeev@antigravity-os
@@ -42,12 +42,12 @@ rajeev@antigravity-os:~$ neofetch --theme tokyonight
    / \       / \      GPA: 9.27 / 10.00
   /   \     /   \     Focus: Generative AI & Web3D Graphics
   \   /     \   /     
-   -       -      [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] (100% committed)
+   -       -      [████████████████████████████████] (100% committed)
 `
 
-\\\ash
+`ash
 rajeev@antigravity-os:~$ cat experience/iit_kanpur.json
-\\\
+`
 `json
 {
   "role": "Generative AI Research Intern",
@@ -62,9 +62,9 @@ rajeev@antigravity-os:~$ cat experience/iit_kanpur.json
 }
 `
 
-\\\ash
+`ash
 rajeev@antigravity-os:~$ ls -l currently_building/
-\\\
+`
 `	ext
 total 3
 -rwxr-xr-x 1 rajeev dev 1080 Jul 14 22:45 NextJS_Portfolio.js  # 1080p scroll animation & AI RAG
@@ -72,15 +72,16 @@ total 3
 -rwxr-xr-x 1 rajeev dev  256 Jul 14 22:45 Freelance_Web_Leads  # Kolkata F&B landing pages
 `
 
-\\\ash
+`ash
 rajeev@antigravity-os:~$ status --check-roles
-\\\
+`
 `	ext
 [✓] Open to AI/ML Research Internships (Computer Vision, Generative Models, NLP)
 [✓] Open to Full-Stack & AI Engineering Roles
 `
 
----## 🏆 GitHub Trophies
+---
+## 🏆 GitHub Trophies
 
 <div align="center">
   <img src="https://gh-profile-trophy.vercel.app/?username=Rajeev91691&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=4" alt="GitHub Trophies"/>
