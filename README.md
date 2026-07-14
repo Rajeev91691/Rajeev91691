@@ -62,7 +62,7 @@ open_to:
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Rajeev91691&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=4" alt="GitHub Trophies"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=Rajeev91691&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=4&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" alt="GitHub Trophies"/>
 </div>
 
 ---
@@ -123,12 +123,12 @@ open_to:
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Rajeev91691&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github" height="165" alt="GitHub Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rajeev91691&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="165" alt="Top Languages"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Rajeev91691&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github&cache_seconds=1800" height="165" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rajeev91691&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=1800" height="165" alt="Top Languages"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rajeev91691&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+  <img src="https://streak-stats.demolab.com/?user=Rajeev91691&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
 </div>
 
 <div align="center">
