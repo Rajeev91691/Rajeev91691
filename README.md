@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 <!-- Animated Capsule Header -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Rajeev%20Nandan%20Damarla&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Full-Stack%20Developer%20%E2%80%A2%20Generative%20AI%20Engineer%20%E2%80%A2%20UI%2FUX%20Designer&descAlignY=58&descSize=16"/>
@@ -27,39 +27,60 @@
 
 ## 🧠 About Me
 
-```yaml
-name: Rajeev Nandan Damarla
-location: Visakhapatnam, India
+\\\ash
+rajeev@antigravity-os:~$ neofetch --theme tokyonight
+\\\
 
-education:
-  degree: B.Tech Computer Science & Engineering
-  institution: GITAM Deemed University
-  gpa: 9.27 / 10
-  duration: 2023 – May 2027
+`	ext
+       .---.          rajeev@antigravity-os
+      /     \         ---------------------
+      \.@-@./         OS: Antigravity OS v2.0-stable (Ubuntu/WSL2)
+      /\_/\         Host: GITAM University Student Platform
+     //  _  \\        Kernel: 5.15.0-76-generic x86_64
+    | \     / |       Uptime: 3 years (Expected Grad: May 2027)
+   (|  ---'  |)      Shell: bash 5.1.16
+   / \       / \      GPA: 9.27 / 10.00
+  /   \     /   \     Focus: Generative AI & Web3D Graphics
+  \   /     \   /     
+   -       -      [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] (100% committed)
+`
 
-experience:
-  - role: Generative AI Research Intern
-    org: IIT Kanpur — Deep Learning & Vision Research Group
-    period: June 2025 – August 2025
-    stack: PyTorch · Stable Diffusion (DDPM/DDIM) · FastAPI · FP16 · Mixed-Precision
-    achievements:
-      - "-15% FID via fine-tuned Stable Diffusion (DDPM/DDIM) pipelines"
-      - "-22% inference latency with FP16 mixed-precision & FastAPI batching"
-      - "+18% quality lift benchmarking GPT-2 / LLaMA / Mistral architectures"
+\\\ash
+rajeev@antigravity-os:~$ cat experience/iit_kanpur.json
+\\\
+`json
+{
+  "role": "Generative AI Research Intern",
+  "group": "Deep Learning & Vision Research Group",
+  "timeline": "June 2025 - August 2025",
+  "stack": ["PyTorch", "Stable Diffusion", "FastAPI", "FP16 Mixed-Precision"],
+  "metrics": {
+    "FID_reduction": "-15% (Fine-tuned DDPM/DDIM pipelines)",
+    "inference_latency": "-22% (mixed-precision + batching)",
+    "benchmarking_quality": "+18% lift (evaluating GPT-2, LLaMA, Mistral)"
+  }
+}
+`
 
-currently_building:
-  - Next.js portfolio — scroll-scrubbed 1080p hero animation + AI RAG terminal widget
-  - WebGL civil engineering dashboard — DXF topological parser (56 nodes, 62 segments)
-  - Freelance web experiences for Kolkata F&B clients
+\\\ash
+rajeev@antigravity-os:~$ ls -l currently_building/
+\\\
+`	ext
+total 3
+-rwxr-xr-x 1 rajeev dev 1080 Jul 14 22:45 NextJS_Portfolio.js  # 1080p scroll animation & AI RAG
+-rwxr-xr-x 1 rajeev dev  560 Jul 14 22:45 WebGL_Levels_Parser  # Topological DXF parser (56 nodes)
+-rwxr-xr-x 1 rajeev dev  256 Jul 14 22:45 Freelance_Web_Leads  # Kolkata F&B landing pages
+`
 
-open_to:
-  - AI/ML Research Internships (Computer Vision, Generative Models, NLP)
-  - Full-Stack & AI Engineering Roles
-```
+\\\ash
+rajeev@antigravity-os:~$ status --check-roles
+\\\
+`	ext
+[✓] Open to AI/ML Research Internships (Computer Vision, Generative Models, NLP)
+[✓] Open to Full-Stack & AI Engineering Roles
+`
 
----
-
-## 🏆 GitHub Trophies
+---## 🏆 GitHub Trophies
 
 <div align="center">
   <img src="https://gh-profile-trophy.vercel.app/?username=Rajeev91691&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=4" alt="GitHub Trophies"/>
