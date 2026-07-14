@@ -135,6 +135,16 @@ open_to:
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Rajeev91691&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="Activity Graph"/>
 </div>
 
+### 🐍 Contribution Snake
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rajeev91691/Rajeev91691/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rajeev91691/Rajeev91691/output/github-snake.svg">
+    <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/Rajeev91691/Rajeev91691/output/github-snake.svg">
+  </picture>
+</div>
+
 ---
 
 ## 📜 Certifications
