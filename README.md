@@ -27,60 +27,41 @@
 
 ## 🧠 About Me
 
-`ash
-rajeev@antigravity-os:~$ neofetch --theme tokyonight
-`
+```powershell
+PS C:\Users\rajeev> Get-Developer -Name "Rajeev Nandan Damarla"
 
-`	ext
-       .---.          rajeev@antigravity-os
-      /     \         ---------------------
-      \.@-@./         OS: Antigravity OS v2.0-stable (Ubuntu/WSL2)
-      /\_/\         Host: GITAM University Student Platform
-     //  _  \\        Kernel: 5.15.0-76-generic x86_64
-    | \     / |       Uptime: 3 years (Expected Grad: May 2027)
-   (|  ---'  |)      Shell: bash 5.1.16
-   / \       / \      GPA: 9.27 / 10.00
-  /   \     /   \     Focus: Generative AI & Web3D Graphics
-  \   /     \   /     
-   -       -      [████████████████████████████████] (100% committed)
-`
+Name             : Rajeev Nandan Damarla
+Location         : Visakhapatnam, India
+Education        : B.Tech Candidate in CSE, GITAM University (GPA: 9.27/10, May 2027)
+Contacts         : rajeevnandan382@gmail.com | +91 9481509488
+Profiles         : GitHub (Rajeev91691) | LinkedIn (rajeev-nandan-damarla) | HF (Rajeev91691)
+Current Status   : Generative AI & Full-Stack Engineer
 
-`ash
-rajeev@antigravity-os:~$ cat experience/iit_kanpur.json
-`
-`json
-{
-  "role": "Generative AI Research Intern",
-  "group": "Deep Learning & Vision Research Group",
-  "timeline": "June 2025 - August 2025",
-  "stack": ["PyTorch", "Stable Diffusion", "FastAPI", "FP16 Mixed-Precision"],
-  "metrics": {
-    "FID_reduction": "-15% (Fine-tuned DDPM/DDIM pipelines)",
-    "inference_latency": "-22% (mixed-precision + batching)",
-    "benchmarking_quality": "+18% lift (evaluating GPT-2, LLaMA, Mistral)"
-  }
-}
-`
+PS C:\Users\rajeev> Get-Internship -Institution "IIT Kanpur" -ResearchGroup "DL & Vision"
 
-`ash
-rajeev@antigravity-os:~$ ls -l currently_building/
-`
-`	ext
-total 3
--rwxr-xr-x 1 rajeev dev 1080 Jul 14 22:45 NextJS_Portfolio.js  # 1080p scroll animation & AI RAG
--rwxr-xr-x 1 rajeev dev  560 Jul 14 22:45 WebGL_Levels_Parser  # Topological DXF parser (56 nodes)
--rwxr-xr-x 1 rajeev dev  256 Jul 14 22:45 Freelance_Web_Leads  # Kolkata F&B landing pages
-`
+Role             : Deep Learning & Vision Researcher (June 2025 - August 2025)
+Project          : Fine-tuned Stable Diffusion (DDPM/DDIM) in PyTorch
+Inference Latency: -22% reduction via FP16 mixed-precision and FastAPI batching
+Image Quality    : -15% FID improvement on DDPM/DDIM pipelines
+Text Evaluation  : +18% quality lift evaluating GPT-2/LLaMA/Mistral architectures
 
-`ash
-rajeev@antigravity-os:~$ status --check-roles
-`
-`	ext
-[✓] Open to AI/ML Research Internships (Computer Vision, Generative Models, NLP)
-[✓] Open to Full-Stack & AI Engineering Roles
-`
+PS C:\Users\rajeev> Get-CurrentProjects | Format-Table -AutoSize
+
+Project           Type        Description
+-------           ----        -----------
+rajeev-portfolio  Next.js/3D  Editorial portfolio with scroll-scrubbed 1080p hero and AI RAG terminal
+bondapalli-dash   WebGL/DXF   Civil dashboard with 56-node / 62-segment topological DXF parser
+freelance-pitch   Full-Stack  Websites for Kolkata restaurants (SlyFox, Ppaparazzi, GupiBagha)
+
+PS C:\Users\rajeev> Get-OpportunityPreferences
+
+OpenTo           : AI/ML Research Internships (Computer Vision, Generative Models, NLP)
+Roles            : AI Engineer, SDE, Full-Stack Engineer
+Active Cycles    : Google Bangalore Student Researcher & general AI Engineer roles
+```
 
 ---
+
 ## 🏆 GitHub Trophies
 
 <div align="center">
