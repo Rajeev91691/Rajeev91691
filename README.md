@@ -1,14 +1,19 @@
-﻿<div align="center">
+<div align="center">
 
-<!-- Animated Capsule Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Rajeev%20Nandan%20Damarla&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Full-Stack%20Developer%20%E2%80%A2%20Generative%20AI%20Engineer%20%E2%80%A2%20UI%2FUX%20Designer&descAlignY=58&descSize=16"/>
-
-<!-- Typing Animation -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=0EA5E9&center=true&vCenter=true&repeat=true&width=650&lines=Fine-tuning+Diffusion+Models+%40+IIT+Kanpur+%F0%9F%94%AC;Building+immersive+3D+web+experiences+%F0%9F%8C%90;Exploring+LLMs%2C+RAG+%26+Computer+Vision+%F0%9F%A4%96;Open+to+Research+%26+AI+Engineering+Roles+%F0%9F%9A%80" alt="Typing SVG"/>
-</a>
+<h3><code>Rajeev91691@github ~ $ ./contributions.sh</code></h3>
+<img src="./contrib-heatmap.svg" width="860" />
 
 <br/><br/>
+
+<h3><code>Rajeev91691@github ~ $ whoami</code></h3>
+<table>
+  <tr>
+    <td valign="top"><img src="./rajeev-ascii.svg" width="370" /></td>
+    <td valign="top"><img src="./info-card.svg" width="490" /></td>
+  </tr>
+</table>
+
+<br/>
 
 <!-- Social Badges -->
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-0ea5e9?style=for-the-badge&logo=netlify&logoColor=white)](https://rajeevnandan.rweb.site)
@@ -17,48 +22,11 @@
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rajeev91691)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rajeevnandan382@gmail.com)
 
-<br/>
+<br/><br/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Rajeev91691&style=for-the-badge&color=0ea5e9&label=PROFILE+VIEWS)
 
 </div>
-
----
-
-## 🧠 About Me
-
-```powershell
-PS C:\Users\rajeev> Get-Developer -Name "Rajeev Nandan Damarla"
-
-Name             : Rajeev Nandan Damarla
-Location         : Visakhapatnam, India
-Education        : B.Tech Candidate in CSE, GITAM University (GPA: 9.27/10, May 2027)
-Contacts         : rajeevnandan382@gmail.com | +91 9481509488
-Profiles         : GitHub (Rajeev91691) | LinkedIn (rajeev-nandan-damarla) | HF (Rajeev91691)
-Current Status   : Generative AI & Full-Stack Engineer
-
-PS C:\Users\rajeev> Get-Internship -Institution "IIT Kanpur" -ResearchGroup "DL & Vision"
-
-Role             : Deep Learning & Vision Researcher (June 2025 - August 2025)
-Project          : Fine-tuned Stable Diffusion (DDPM/DDIM) in PyTorch
-Inference Latency: -22% reduction via FP16 mixed-precision and FastAPI batching
-Image Quality    : -15% FID improvement on DDPM/DDIM pipelines
-Text Evaluation  : +18% quality lift evaluating GPT-2/LLaMA/Mistral architectures
-
-PS C:\Users\rajeev> Get-CurrentProjects | Format-Table -AutoSize
-
-Project           Type        Description
--------           ----        -----------
-rajeev-portfolio  Next.js/3D  Editorial portfolio with scroll-scrubbed 1080p hero and AI RAG terminal
-bondapalli-dash   WebGL/DXF   Civil dashboard with 56-node / 62-segment topological DXF parser
-freelance-pitch   Full-Stack  Websites for Kolkata restaurants (SlyFox, Ppaparazzi, GupiBagha)
-
-PS C:\Users\rajeev> Get-OpportunityPreferences
-
-OpenTo           : AI/ML Research Internships (Computer Vision, Generative Models, NLP)
-Roles            : AI Engineer, SDE, Full-Stack Engineer
-Active Cycles    : Google Bangalore Student Researcher & general AI Engineer roles
-```
 
 ---
 
