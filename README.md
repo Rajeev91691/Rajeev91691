@@ -94,16 +94,16 @@
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Rajeev91691&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github&cache_seconds=1800" height="165" alt="GitHub Stats"/>
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Rajeev91691&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=1800" height="165" alt="Top Languages"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Rajeev91691&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github&cache_seconds=1800&v=1" height="165" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Rajeev91691&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=1800&v=1" height="165" alt="Top Languages"/>
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=Rajeev91691&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+  <img src="https://streak-stats.demolab.com/?user=Rajeev91691&theme=tokyonight&hide_border=true&v=1" alt="GitHub Streak"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Rajeev91691&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="Activity Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Rajeev91691&theme=tokyo-night&hide_border=true&area=true&v=1" width="100%" alt="Activity Graph"/>
 </div>
 
 ### 🐍 Contribution Snake
