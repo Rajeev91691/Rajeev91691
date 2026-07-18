@@ -73,18 +73,28 @@ def rise(inner, i):
     """fade + slight upward slide, staggered by row index; freezes visible."""
     if STATIC:
         return f"<g>{inner}</g>"
-    delay = 0.15 + i * 0.06
-    return (f'<g opacity="0" transform="translate(0,5)">{inner}'
-            f'<animate attributeName="opacity" from="0" to="1" begin="{delay:.2f}s" dur="0.4s" fill="freeze"/>'
-            f'<animateTransform attributeName="transform" type="translate" from="0 5" to="0 0" '
-            f'begin="{delay:.2f}s" dur="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1"/></g>')
+    return f'<g class="r r{i}">{inner}</g>'
 
+
+css_rules = [
+    "@keyframes rise {",
+    "  0%   { opacity: 0; transform: translateY(5px); }",
+    "  100% { opacity: 1; transform: translateY(0); }",
+    "}",
+    ".r { animation: rise 0.4s cubic-bezier(0.2, 0.8, 0.2, 1) both; }"
+]
+for i in range(len(ROWS)):
+    delay = 0.15 + i * 0.06
+    css_rules.append(f".r{i} {{ animation-delay: {delay:.2f}s; }}")
+
+style_block = "<style>" + "\n".join(css_rules) + "</style>"
 
 parts = [
     f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
     f'font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">',
-    '<defs>'
-    f'<linearGradient id="ibg" x1="0" y1="0" x2="0" y2="1">'
+    '<defs>',
+    style_block,
+    f'<linearGradient id="ibg" x1="0" y1="0" x2="0" y2="1">',
     f'<stop offset="0" stop-color="{BG2}"/><stop offset="1" stop-color="{BG}"/></linearGradient></defs>',
     f'<rect width="{W}" height="{H}" rx="12" fill="url(#ibg)"/>',
     f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="12" fill="none" stroke="{FRAME}"/>',

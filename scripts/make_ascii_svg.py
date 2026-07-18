@@ -90,10 +90,36 @@ parts.append(
     f'viewBox="0 0 {CANVAS_W} {CANVAS_H}" font-family="ui-monospace, SFMono-Regular, '
     f'Menlo, Consolas, monospace">'
 )
+css_rules = [
+    "@keyframes wipe {",
+    "  0%   { clip-path: inset(0 100% 0 0); }",
+    "  100% { clip-path: inset(0 0 0 0); }",
+    "}",
+    "@keyframes cursor-move {",
+    f"  0%   {{ transform: translateX(0); opacity: 0.85; }}",
+    f"  99%  {{ transform: translateX({ART_W}px); opacity: 0.85; }}",
+    f"  100% {{ transform: translateX({ART_W}px); opacity: 0; }}",
+    "}",
+    "@keyframes blink {",
+    "  0%, 49% { opacity: 1; }",
+    "  50%, 100% { opacity: 0; }",
+    "}",
+    f".row {{ animation: wipe {ROW_DUR:.2f}s linear both; }}",
+    f".cur {{ animation: cursor-move {ROW_DUR:.2f}s linear both; opacity: 0; }}",
+    ".blink { animation: blink 1s infinite; }"
+]
+for ry in range(ROWS):
+    delay = ry * STAGGER
+    css_rules.append(f".row{ry} {{ animation-delay: {delay:.3f}s; }}")
+    css_rules.append(f".cur{ry} {{ animation-delay: {delay:.3f}s; }}")
+
+style_block = "<style>" + "\n".join(css_rules) + "</style>"
+
 parts.append('<defs>'
              f'<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">'
              f'<stop offset="0" stop-color="{BG2}"/><stop offset="1" stop-color="{BG}"/>'
-             f'</linearGradient></defs>')
+             f'</linearGradient>'
+             f'{style_block}</defs>')
 
 parts.append(f'<rect width="{CANVAS_W}" height="{CANVAS_H}" rx="12" fill="url(#bg)"/>')
 parts.append(f'<rect x="0.5" y="0.5" width="{CANVAS_W-1}" height="{CANVAS_H-1}" rx="12" '
@@ -119,18 +145,9 @@ for ry, line in enumerate(rows_txt):
         parts.append(text)
         continue
 
+    parts.append(f'<g class="row row{ry}">{text}</g>')
     parts.append(
-        f'<clipPath id="r{ry}"><rect x="{PAD}" y="{row_y:.1f}" height="{CELL_H}" width="0">'
-        f'<animate attributeName="width" from="0" to="{ART_W}" begin="{delay:.3f}s" '
-        f'dur="{ROW_DUR:.2f}s" fill="freeze"/></rect></clipPath>'
-    )
-    parts.append(f'<g clip-path="url(#r{ry})">{text}</g>')
-    parts.append(
-        f'<rect y="{row_y+1:.1f}" width="{CELL_W}" height="{CELL_H-2}" fill="{CURSOR}" opacity="0">'
-        f'<animate attributeName="x" from="{PAD}" to="{PAD+ART_W}" begin="{delay:.3f}s" '
-        f'dur="{ROW_DUR:.2f}s" fill="freeze"/>'
-        f'<set attributeName="opacity" to="0.85" begin="{delay:.3f}s"/>'
-        f'<set attributeName="opacity" to="0" begin="{delay+ROW_DUR:.3f}s"/></rect>'
+        f'<rect class="cur cur{ry}" x="{PAD}" y="{row_y+1:.1f}" width="{CELL_W}" height="{CELL_H-2}" fill="{CURSOR}"/>'
     )
 
 # status bar with a steady blinking cursor
@@ -139,9 +156,7 @@ status_y = status_line_y + 19
 parts.append(f'<line x1="0" y1="{status_line_y:.1f}" x2="{CANVAS_W}" y2="{status_line_y:.1f}" stroke="{FRAME}"/>')
 parts.append(f'<text x="{PAD}" y="{status_y:.1f}" fill="{TITLE_TEXT}" font-size="13">'
              f'Rajeev91691@github:~$ whoami <tspan fill="{INK}">Rajeev Nandan Damarla</tspan></text>')
-parts.append(f'<rect x="{PAD+219}" y="{status_y-12:.1f}" width="8" height="14" fill="{INK}">'
-             f'<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.51;1" '
-             f'dur="1s" repeatCount="indefinite"/></rect>')
+parts.append(f'<rect class="blink" x="{PAD+219}" y="{status_y-12:.1f}" width="8" height="14" fill="{INK}"/>')
 
 parts.append("</svg>")
 svg = "".join(parts)
