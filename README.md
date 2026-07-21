@@ -99,7 +99,7 @@
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com/?user=Rajeev91691&theme=tokyonight&hide_border=true&v=1" alt="GitHub Streak"/>
+  <img src="./streak-card.svg" alt="GitHub Streak"/>
 </div>
 
 <div align="center">

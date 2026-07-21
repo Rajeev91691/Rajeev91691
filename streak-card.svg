@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+  <style>
+    .stat-title { font-size: 13px; fill: #7d8590; font-weight: 500; }
+    .stat-value { font-size: 26px; fill: #22d3ee; font-weight: 700; }
+    .stat-sub { font-size: 11px; fill: #7d8590; }
+    .fire { font-size: 22px; }
+  </style>
+  <rect width="495" height="195" rx="12" fill="#0d1420"/>
+  <rect x="0.5" y="0.5" width="494" height="194" rx="12" fill="none" stroke="#1f6feb" stroke-opacity="0.55"/>
+  
+  <!-- Total Contributions Column -->
+  <g transform="translate(40, 45)">
+    <text x="0" y="0" class="stat-title">Total Contributions</text>
+    <text x="0" y="36" class="stat-value" fill="#e6edf3">160</text>
+    <text x="0" y="58" class="stat-sub">2025-07-20 - 2026-07-21</text>
+  </g>
+  
+  <!-- Divider 1 -->
+  <line x1="175" y1="35" x2="175" y2="155" stroke="#1f6feb" stroke-opacity="0.3"/>
+  
+  <!-- Current Streak Column -->
+  <g transform="translate(200, 45)">
+    <text x="0" y="0" class="stat-title">Current Streak 🔥</text>
+    <text x="0" y="36" class="stat-value" fill="#ff5f56">9 <tspan font-size="16" fill="#7d8590">days</tspan></text>
+    <text x="0" y="58" class="stat-sub">2026-07-13 - 2026-07-21</text>
+  </g>
+  
+  <!-- Divider 2 -->
+  <line x1="335" y1="35" x2="335" y2="155" stroke="#1f6feb" stroke-opacity="0.3"/>
+  
+  <!-- Longest Streak Column -->
+  <g transform="translate(355, 45)">
+    <text x="0" y="0" class="stat-title">Longest Streak ⚡</text>
+    <text x="0" y="36" class="stat-value" fill="#f2cc60">9 <tspan font-size="16" fill="#7d8590">days</tspan></text>
+    <text x="0" y="58" class="stat-sub">2026-07-13 - 2026-07-21</text>
+  </g>
+</svg>
