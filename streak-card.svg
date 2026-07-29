@@ -11,8 +11,8 @@
   <!-- Total Contributions Column -->
   <g transform="translate(40, 45)">
     <text x="0" y="0" class="stat-title">Total Contributions</text>
-    <text x="0" y="36" class="stat-value" fill="#e6edf3">181</text>
-    <text x="0" y="58" class="stat-sub">2025-07-27 - 2026-07-28</text>
+    <text x="0" y="36" class="stat-value" fill="#e6edf3">183</text>
+    <text x="0" y="58" class="stat-sub">2025-07-27 - 2026-07-29</text>
   </g>
   
   <!-- Divider 1 -->
@@ -21,8 +21,8 @@
   <!-- Current Streak Column -->
   <g transform="translate(200, 45)">
     <text x="0" y="0" class="stat-title">Current Streak 🔥</text>
-    <text x="0" y="36" class="stat-value" fill="#ff5f56">15 <tspan font-size="16" fill="#7d8590">days</tspan></text>
-    <text x="0" y="58" class="stat-sub">2026-07-13 - 2026-07-27</text>
+    <text x="0" y="36" class="stat-value" fill="#ff5f56">16 <tspan font-size="16" fill="#7d8590">days</tspan></text>
+    <text x="0" y="58" class="stat-sub">2026-07-13 - 2026-07-28</text>
   </g>
   
   <!-- Divider 2 -->
@@ -31,7 +31,7 @@
   <!-- Longest Streak Column -->
   <g transform="translate(355, 45)">
     <text x="0" y="0" class="stat-title">Longest Streak ⚡</text>
-    <text x="0" y="36" class="stat-value" fill="#f2cc60">15 <tspan font-size="16" fill="#7d8590">days</tspan></text>
-    <text x="0" y="58" class="stat-sub">2026-07-13 - 2026-07-27</text>
+    <text x="0" y="36" class="stat-value" fill="#f2cc60">16 <tspan font-size="16" fill="#7d8590">days</tspan></text>
+    <text x="0" y="58" class="stat-sub">2026-07-13 - 2026-07-28</text>
   </g>
 </svg>
