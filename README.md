@@ -33,7 +33,7 @@
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://gh-profile-trophy.vercel.app/?username=Rajeev91691&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=4" alt="GitHub Trophies"/>
+  <img src="https://github-profile-repo.vercel.app/?username=Rajeev91691&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=4" alt="GitHub Trophies"/>
 </div>
 
 ---
