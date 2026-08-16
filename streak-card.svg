@@ -12,7 +12,7 @@
   <g transform="translate(40, 45)">
     <text x="0" y="0" class="stat-title">Total Contributions</text>
     <text x="0" y="36" class="stat-value" fill="#e6edf3">227</text>
-    <text x="0" y="58" class="stat-sub">2025-08-10 - 2026-08-15</text>
+    <text x="0" y="58" class="stat-sub">2025-08-17 - 2026-08-16</text>
   </g>
   
   <!-- Divider 1 -->
@@ -21,8 +21,8 @@
   <!-- Current Streak Column -->
   <g transform="translate(200, 45)">
     <text x="0" y="0" class="stat-title">Current Streak 🔥</text>
-    <text x="0" y="36" class="stat-value" fill="#ff5f56">1 <tspan font-size="16" fill="#7d8590">days</tspan></text>
-    <text x="0" y="58" class="stat-sub">2026-08-14 - 2026-08-14</text>
+    <text x="0" y="36" class="stat-value" fill="#ff5f56">0 <tspan font-size="16" fill="#7d8590">days</tspan></text>
+    <text x="0" y="58" class="stat-sub">None - None</text>
   </g>
   
   <!-- Divider 2 -->
