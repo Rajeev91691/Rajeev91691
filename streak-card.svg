@@ -11,8 +11,8 @@
   <!-- Total Contributions Column -->
   <g transform="translate(40, 45)">
     <text x="0" y="0" class="stat-title">Total Contributions</text>
-    <text x="0" y="36" class="stat-value" fill="#e6edf3">42,830</text>
-    <text x="0" y="58" class="stat-sub">2025-10-12 - 2026-10-15</text>
+    <text x="0" y="36" class="stat-value" fill="#e6edf3">43,830</text>
+    <text x="0" y="58" class="stat-sub">2025-10-12 - 2026-10-16</text>
   </g>
   
   <!-- Divider 1 -->
