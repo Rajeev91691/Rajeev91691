@@ -11,8 +11,8 @@
   <!-- Total Contributions Column -->
   <g transform="translate(40, 45)">
     <text x="0" y="0" class="stat-title">Total Contributions</text>
-    <text x="0" y="36" class="stat-value" fill="#e6edf3">73,775</text>
-    <text x="0" y="58" class="stat-sub">2025-11-16 - 2026-11-21</text>
+    <text x="0" y="36" class="stat-value" fill="#e6edf3">73,111</text>
+    <text x="0" y="58" class="stat-sub">2025-11-23 - 2026-11-22</text>
   </g>
   
   <!-- Divider 1 -->
@@ -31,7 +31,7 @@
   <!-- Longest Streak Column -->
   <g transform="translate(355, 45)">
     <text x="0" y="0" class="stat-title">Longest Streak ⚡</text>
-    <text x="0" y="36" class="stat-value" fill="#f2cc60">359 <tspan font-size="16" fill="#7d8590">days</tspan></text>
-    <text x="0" y="58" class="stat-sub">2025-11-16 - 2026-11-09</text>
+    <text x="0" y="36" class="stat-value" fill="#f2cc60">352 <tspan font-size="16" fill="#7d8590">days</tspan></text>
+    <text x="0" y="58" class="stat-sub">2025-11-23 - 2026-11-09</text>
   </g>
 </svg>
